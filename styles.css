@@ -99,7 +99,8 @@
     }
     
     .hero-text {
-    flex: 1 1 300px;           /* cresce e si restringe, larghezza minima 300px */
+    flex: 1 1 300px;
+    color: #fff;
     max-width: 45%;
     }
     
