@@ -96,20 +96,19 @@
     max-width: 45%;
     }
     
+    /* il box che contiene l’immagine non supererà 300px */
     .hero-image {
-    flex: 1 1 300px;           /* stesso comportamento del testo */
-    max-width: 45%;            /* non più del 45% del container */
-    display: flex;             /* per centrare l’immagine al suo interno */
-    justify-content: center;
-    align-items: center;
+    max-width: 300px;      /* larghezza massima del contenitore */
+    flex: 0 1 auto;        /* non si allunga oltre il suo contenitore flex */
     }
-    
+
+    /* l’immagine dentro il box si adatta sempre al 100% del box */
     .hero-image img {
-    max-width: 100%;           /* mai più larga del suo contenitore (.hero-image) */
-    height: auto;              /* mantiene le proporzioni */
+    width: 100%;           /* riempie sempre il suo contenitore .hero-image */
+    height: auto;          /* mantiene le proporzioni */
+    display: block;        /* elimina spazi bianchi sotto l’immagine */
     border-radius: 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    display: block;            /* rimuove eventuali spazi bianchi sotto l’immagine */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     }
     
     /* ===== Mobile first (sotto 768px) ===== */
