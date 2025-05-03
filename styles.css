@@ -76,6 +76,7 @@
     }
     .panel {
     background: #32ab11;
+    color: #fff;
     height: calc(100vh - 4rem);
     scroll-snap-align: start;
     display: flex;
@@ -84,6 +85,11 @@
     }
     
     /* ===== Hero Section migliorata ===== */
+
+    .hero {
+    background: #32ab11;
+    color: #fff;
+    }
     .hero-content {
     display: flex;
     align-items: center;
@@ -124,7 +130,8 @@
 
     /* ===== Features Section ===== */
     .features {
-    background: linear-gradient(#32ab11);
+    background: #32ab11;
+    color: #fff;
     justify-content: center;
     flex-direction: column;
     text-align: center;
