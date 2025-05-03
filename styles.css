@@ -75,6 +75,7 @@
     scroll-snap-type: y mandatory;
     }
     .panel {
+    background: #32ab11;
     height: calc(100vh - 4rem);
     scroll-snap-align: start;
     display: flex;
