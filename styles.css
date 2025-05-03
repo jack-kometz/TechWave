@@ -156,6 +156,7 @@ main {
 }
 .features p {
   margin: 0 auto 2rem;
+  color: #000;
   max-width: 600px;
 }
 .features-grid {
