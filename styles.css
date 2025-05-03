@@ -46,7 +46,7 @@
     .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 1rem; 
+    margin-top: 0,5rem; 
     }
     nav .nav-link {
     color: #fff;
@@ -84,11 +84,6 @@
     }
     
     /* ===== Hero Section migliorata ===== */
-    .hero {
-    background: linear-gradient(#32ab11);
-    color: #fff;
-    } 
-
     .hero-content {
     display: flex;
     align-items: center;
