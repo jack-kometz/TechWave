@@ -145,13 +145,13 @@ main {
 /* ===== Features Section ===== */
 .features {
   background: #32ab11;
-  color: #fff;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
 .features h2 {
   font-size: 2rem;
+  color: #fff;
   margin-bottom: 0.5rem;
 }
 .features p {
