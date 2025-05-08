@@ -166,7 +166,7 @@ main {
   width: 100%;
 }
 .feature-card {
-  color: #fff
+  color: #fff;
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(212, 206, 206, 0.1);
