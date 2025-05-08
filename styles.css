@@ -13,7 +13,7 @@ html, body {
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
-  padding-top: 4rem; /* spazio per header fisso */
+  padding-top: 4rem; 
 }
 
 /* ===== Container ===== */
@@ -93,7 +93,7 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  flex-wrap: wrap; /* consente al contenuto di andare a capo su mobile */
+  flex-wrap: wrap; 
 }
 .hero h1 {
   font-size: 2rem;
@@ -107,14 +107,14 @@ main {
 }
 
 .hero-image {
-  max-width: 300px; /* larghezza massima del contenitore */
-  flex: 0 1 auto; /* non si allunga oltre il suo contenitore flex */
+  max-width: 300px;
+  flex: 0 1 auto; 
 }
 
 .hero-image img {
-  width: 100%; /* riempie sempre il suo contenitore .hero-image */
-  height: auto; /* mantiene le proporzioni */
-  display: block; /* elimina spazi bianchi sotto l’immagine */
+  width: 100%; 
+  height: auto; 
+  display: block; 
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
@@ -122,10 +122,10 @@ main {
 /* ===== Mobile first (sotto 768px) ===== */
 @media (max-width: 768px) {
   .hero-text, .hero-image {
-    max-width: 100%; /* occupano tutta la larghezza disponibile */
+    max-width: 100%; 
   }
   .hero-image {
-    margin-top: 1.5rem; /* spazio tra testo e immagine su mobile */
+    margin-top: 1.5rem; 
   }
 
   .site-header .container {
